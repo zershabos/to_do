@@ -1,0 +1,26 @@
+
+
+body {
+	text-align:center;
+	background-image:url(../img/bild.jpeg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-color: azure;
+  text-decoration:blink;
+}
+#login {
+	font-size:20px;
+	color:#FFF;
+	}
+#user_login {
+	font-size:20px;
+	}
+#user_pass {
+	font-size:20px;
+	}
+
+form {margin: 20px 0px 0px 20px ;overflow: hidden;}
+.footer {padding: 7px; margin-top: 200px;background-color: #eee;text-align: left;}
+.footer1 {padding: 7px; margin-top: 413px;background-color: #eee;text-align: left;}
+
+	

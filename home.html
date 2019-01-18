@@ -1,0 +1,81 @@
+<html>
+   <head>
+    <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+         To-do List
+      </title>
+      <style>
+      html {
+        font-family: "Avenir Next", Helevetica, sans-serif;
+        text-align: center;
+        }
+
+    
+    input {
+      width: 500px;
+      height: 60px;
+      font-size: 40px;
+      border: 0;
+      display: block;
+      margin: 20px auto;
+          }
+
+    input:focus {
+      outline: none;
+          }
+          ul{
+            width: 500px;
+            margin: 0 auto;
+            text-align: left;
+          }
+    li    {
+      text-align: left;
+      font-size: 40px;
+      list-style: none;
+      margin: 0;
+      color: #fff;
+           }
+
+    li:hover img{
+            display: inline-block;
+           }
+          li img{
+            width: 24px;
+            /*position: relative;
+            left: -160px;*/
+            display: none;
+          }
+      button{
+          
+            padding:auto;
+            margin-bottom: 30px;
+            margin-top: 30px
+            } 
+            .logout{
+              background: #f3f2f2;
+              color: #333;
+              display: inline-block;
+              border: 1px solid #ddd;
+              padding: 5px;
+              margin-bottom: 15px;
+            }     
+      </style>
+     </head>
+   <body>
+
+
+            <a href="index.html" class="logOUt"><h1>logOUt</h1></a>
+            <input id="input"  placeholder="type here to creat to-do list">
+            <ul id="list" class="field1"></ul>
+
+   <div class="footer1">
+      <h6>Copy Right Salem</h6>
+  </div>
+            <script src="index.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+            <script src="script.js"></script>
+
+   </body>
+
+ </html>
